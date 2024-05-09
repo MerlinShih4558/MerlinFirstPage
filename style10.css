@@ -1,0 +1,114 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+/*	display: flex;this is the point*/
+
+
+.class0
+{
+	display: flex;	
+	margin: 0 auto;
+	justify-content: flex-start;
+	background-color:  white;	
+	border-radius: 5px;
+
+}
+
+.class1_1
+{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 15px;
+}
+
+.class1_2
+{
+	display: flex;	
+	justify-content: flex-start;
+	width: 320px;	
+	flex-wrap: wrap;
+	margin-top: 10px;
+
+}
+
+h1{
+	text-align: center;
+	padding: 5px;
+}
+
+h2{
+	text-align: center;
+}
+
+img{
+	width: 150px;
+}
+
+.class1_1_1
+{
+background-color: #3E5C45;
+color: white;
+border: solid #EBF1ED 1px;
+font-weight:bolder;
+}
+
+.class1_1_2
+{
+
+	background-color: 	#EBF1ED;
+	border: solid #EBF1ED 1px;
+	color:  #3E5C45;
+	font-weight:bolder;	
+}
+
+.class1_1_3
+{
+	border: solid #EBF1ED 1px;
+	color:  #3E5C45;
+	font-weight:bolder;
+}
+
+.class1_2_1
+{
+	display: flex;	
+	justify-content: space-between;
+	align-self: baseline;
+	line-height: 30px;
+	border: solid #EBF1ED 1px;
+}
+
+.list
+{
+ margin: 5px;
+}
+
+span{
+	color:  #3E5C45;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+	padding-left: 2px;
+	line-height: 30px;
+}
